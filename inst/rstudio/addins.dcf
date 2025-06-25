@@ -1,0 +1,4 @@
+Name: Insert Manifestation Header
+Description: Insert author information at the header
+Binding: insert_manifestation
+Interactive: false
