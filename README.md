@@ -4,7 +4,7 @@
 
 [![License: GPL-3](https://img.shields.io/badge/License-GPL--3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![R](https://img.shields.io/badge/R-%3E=3.5.0-blue.svg)](https://cran.r-project.org/)
-[![GitHub](https://img.shields.io/github/last-commit/YOUR_USERNAME/jyotirmoymanifest)](https://github.com/YOUR_USERNAME/jyotirmoymanifest)
+[![GitHub](https://img.shields.io/github/last-commit/JD2112/jyotirmoymanifest)](https://github.com/JD2112/jyotirmoymanifest)
 
 ---
 
