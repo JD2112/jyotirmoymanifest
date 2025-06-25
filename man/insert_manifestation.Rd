@@ -2,13 +2,33 @@
 % Please edit documentation in R/insert_manifestation.R
 \name{insert_manifestation}
 \alias{insert_manifestation}
-\title{Insert Manifestation Header}
+\title{Insert Manifestation Header (smart, with config + prompt)}
 \usage{
-insert_manifestation(filename = NULL)
+insert_manifestation(
+  script_name = NULL,
+  purpose = NULL,
+  author = NULL,
+  email = NULL,
+  citation = NULL,
+  notes = NULL,
+  save_profile = FALSE
+)
 }
 \arguments{
-\item{filename}{Optional script name (default uses current file)}
+\item{script_name}{Optional name of the script}
+
+\item{purpose}{Script purpose}
+
+\item{author}{Author name}
+
+\item{email}{Contact email}
+
+\item{citation}{Preferred citation}
+
+\item{notes}{Additional notes}
+
+\item{save_profile}{Logical. If TRUE, saves the inputs to ~/.manifest_profile.R}
 }
 \description{
-Insert Manifestation Header
+Insert Manifestation Header (smart, with config + prompt)
 }

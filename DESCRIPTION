@@ -1,12 +1,24 @@
 Package: jyotirmoymanifest
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Insert Manifestation and Author Blocks in R Scripts
+Version: 0.1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Jyotirmoy", "Das", email = "jyotirmoy.das@liu.se", 
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-5649-4658"))
+Description: 
+    Provides an RStudio addin and function to insert a customizable "manifestation block" 
+    and author metadata into R scripts. The block includes intention-setting messages, script 
+    name, purpose, author information, creation/modification dates, citation instructions, and notes. 
+    User defaults can be preloaded from a configuration file to minimize repetition.
+License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5.0)
+Imports: 
+    rstudioapi
+Suggests: 
+    devtools,
+    usethis
+LazyData: true
