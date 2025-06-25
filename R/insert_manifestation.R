@@ -51,11 +51,6 @@ insert_manifestation <- function(
   date <- format(Sys.Date(), "%Y-%m-%d")
 
   block <- c(
-    "# 🌟 Manifestation Block",
-    "# Today I create with clarity and purpose.",
-    "# This script is aligned with my highest intentions.",
-    "# I trust the process and learn through the journey.",
-    "",
     "# Author details",
     paste0("## Script name: ", script_name),
     paste0("## Purpose of the script: ", purpose),
@@ -64,11 +59,8 @@ insert_manifestation <- function(
     paste0("## Date Last Modified: ", date),
     paste0("## Copyright statement: ", get_default("copyright", "All rights reserved")),
     paste0("## Contact information: ", email),
-    "## Please cite:",
-    citation,
-    "## Notes:",
-    notes,
-    ""
+    paste0("## Please cite: ", citation),
+    paste0("## Notes: ", notes)
   )
 
   rstudioapi::insertText(paste(block, collapse = "\n"))
