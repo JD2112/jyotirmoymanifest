@@ -1,3 +1,9 @@
 ^jyotirmoymanifest\.Rproj$
 ^\.Rproj\.user$
 ^\.github$
+^assets$
+^CODE_OF_CONDUCT.md$
+^CODEOWNERS.md$
+^SECURITY.md$
+^SUPPORT.md$
+^\.manifest_profile\.R$

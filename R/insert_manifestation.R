@@ -74,7 +74,7 @@ insert_manifestation <- function(
       copyright = get_default("copyright", "All rights reserved")
     )
     dput(manifest_profile, file = profile_path)
-    message("✔ Manifestation profile saved to ~/.manifest_profile.R")
+    message("Manifestation profile saved to ~/.manifest_profile.R")
   }
 }
 

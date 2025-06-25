@@ -1,0 +1,10 @@
+citHeader("To cite jyotirmoymanifest in publications use:")
+
+citEntry(
+  entry = "Manual",
+  title = "jyotirmoymanifest: Automatically insert reproducible manifestation blocks",
+  author = person("Jyotirmoy", "Das", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-5649-4658")),
+  year = 2025,
+  note = "R package version 0.1.0",
+  url = "https://github.com/JD2112/jyotirmoymanifest"
+)
