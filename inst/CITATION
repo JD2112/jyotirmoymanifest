@@ -1,12 +1,10 @@
-cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-authors:
-  - family-names: Das
-    given-names: Jyotirmoy
-    orcid: https://orcid.org/0000-0002-5649-4658
-title: "Image-Processing-MATLAB"
-version: 0.1.1
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.11104350
-date-released: 2024-05-02
+citHeader("To cite jyotirmoymanifest in publications use:")
+
+citEntry(
+  entry = "Manual",
+  title = "jyotirmoymanifest: Automatically insert reproducible manifestation blocks",
+  author = person("Jyotirmoy", "Das", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-5649-4658")),
+  year = 2025,
+  note = "R package version 0.1.0",
+  url = "https://github.com/JD2112/jyotirmoymanifest"
+)
